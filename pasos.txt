@@ -1,0 +1,5 @@
+Ref https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
+instalar pip en python 3: python3 -m pip install --user --upgrade pip
+instalar virtualenv: python3 -m pip install --user virtualenv
+crear virtualenv: python3 -m virtualenv nuevoenv
+activar: source env/bin/activate
