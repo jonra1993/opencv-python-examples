@@ -1,0 +1,4 @@
+git clone
+stage all changes git add -A && git commit -m "nombre del cmmit"
+git push
+git pull
