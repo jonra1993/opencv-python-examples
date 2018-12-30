@@ -8,6 +8,9 @@ activar: source env/bin/activate
 Windows
 https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
 pip install virtualenv
-crear proyecto: virtualenv env
-env\Scripts\activate.bat
+crear proyecto: virtualenv zenv
+zenv\Scripts\activate.bat
 deactivate
+
+pip freeze https://pip.pypa.io/en/stable/reference/pip_freeze/
+pip freeze > requirements.txt
