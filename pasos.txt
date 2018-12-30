@@ -13,4 +13,5 @@ zenv\Scripts\activate.bat
 deactivate
 
 pip freeze https://pip.pypa.io/en/stable/reference/pip_freeze/
-pip freeze > requirements.txt
+genera requerimientos pip freeze > requirements.txt
+instala requerimientos pip install -r requirements.txt
