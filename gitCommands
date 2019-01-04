@@ -1,4 +1,5 @@
+codigos https://www.hostinger.es/tutoriales/comandos-de-git#gref
 git clone
-stage all changes git add -A && git commit -m "nombre del cmmit"
+stage all changes:  git add -A && git commit -m "nombre del cmmit"
 git push
 git pull
