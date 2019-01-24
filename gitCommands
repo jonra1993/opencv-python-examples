@@ -7,6 +7,14 @@ stage 1 file git add xxx.x
 stage all changes:  git add -A && git commit -m "nombre del cmmit"
 git config --global user.mail "yyy@xxx.es"
 git config --global user.name "jonra1993"
-git commit
+git commit -m "nombre del cmmit"
+
 git push
 git pull
+
+
+git checkout -- nombre.xw   volver a version anterior no valida cambioas
+git diff nombre.xw    
+git branch nombrebranch
+git checkout nombrebranch             //cambio de todo entorno a nombrebranch
+git log
