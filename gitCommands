@@ -1,4 +1,6 @@
 codigos https://www.hostinger.es/tutoriales/comandos-de-git#gref
+commands https://github.com/joshnh/Git-Commands
+
 git clone
 
 git init
@@ -9,6 +11,8 @@ git config --global user.mail "yyy@xxx.es"
 git config --global user.name "jonra1993"
 git commit -m "nombre del cmmit"
 
+git remote add origin pagina derepoengithub
+git push -u origin master
 git push
 git pull
 
@@ -18,3 +22,9 @@ git diff nombre.xw
 git branch nombrebranch
 git checkout nombrebranch             //cambio de todo entorno a nombrebranch
 git log
+
+
+git tag
+git tag -a v2.1.0 -m "xyz feature is released in this tag."
+git push origin --tags
+git fetch   //actualiza tag y cambios del remote a local
